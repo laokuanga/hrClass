@@ -1,2 +1,118 @@
-<!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="list">
+  <view class="header">
+    <view class="info">
+        <view>
+          <view class="name">HI~,大笨猪！</view>
+          <view style=" display: flex;align-items: center;">
+            <view class="grade">
+              <image src="/static/my/grade.png" class="gradeimg"></image>
+              <view>分销3级</view>
+            </view>
+            <view class="grade" style="margin-left:30rpx">
+              <image src="/static/my/grade.png" class="gradeimg"></image>
+              <view>会员2级</view>
+            </view>
+          </view>
+        </view>
+        <view><image src="/static/my/user.png" class="userimg"></image></view>
+    </view>
+    <view class="record">
+      <view class="file">
+        <view class="course">
+          <view>2</view>
+          <view>课程</view>
+        </view>
+        <view class="course">
+          <view>4</view>
+          <view>文档</view>
+        </view>
+      </view>
+      <view class="history">
+        <image src="/static/my/order.png" class="historyimg"></image>
+        <view>订单</view>
+      </view>
+      <view class="history">
+        <image src="/static/my/history.png" class="historyimg"></image>
+        <view>观看历史</view>
+      </view>
+    </view>
+
+    <view class="dredge">
+      <image src="/static/my/backimage.png" class="backimage"></image>
+      <view class="vip">
+        <image src="/static/my/clear.png" class="vipimg"></image>
+        <view>尊享VIP卡</view>
+      </view>
+      <view class="text">开通尊享VIP，多种课程免费学</view>
+      <view class="liberal">开通</view>
+    </view>
+  </view>
+
+  <view class="common">
+    <view class="title">常用功能</view>
+    <view class="ability">
+      <view>
+        <image src="/static/my/class.png" class="icon"></image>
+        <view>我的课程</view>
+      </view>
+      <view>
+        <image src="/static/my/class.png" class="icon"></image>
+        <view>我的文档</view>
+      </view>
+      <view>
+        <image src="/static/my/follow.png" class="icon"></image>
+        <view>我的关注</view>
+      </view>
+      <view>
+        <image src="/static/my/shaky.png" class="icon"></image>
+        <view>我的活动</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="service">
+    <view class="title">其它服务</view>
+    <view class="nav">
+      <view class="">
+        <image src="/static/my/li1.png" class="nav_icon"></image>
+        <view>分销中心</view>
+      </view>
+      <image src="/static/my/right.png" class="right"></image>
+    </view>
+    <view class="nav">
+      <view class="">
+        <image src="/static/my/li2.png" class="nav_icon"></image>
+        <view>消费记录</view>
+      </view>
+      <image src="/static/my/right.png" class="right"></image>
+    </view>
+    <view class="nav">
+      <view class="">
+        <image src="/static/my/li3.png" class="nav_icon"></image>
+        <view>我的收藏</view>
+      </view>
+      <image src="/static/my/right.png" class="right"></image>
+    </view>
+    <view class="nav">
+      <view class="">
+        <image src="/static/my/li4.png" class="nav_icon"></image>
+        <view>我的优惠券</view>
+      </view>
+      <image src="/static/my/right.png" class="right"></image>
+    </view>
+    <view class="nav">
+      <view class="">
+        <image src="/static/my/li1.png" class="nav_icon"></image>
+        <view>客服中心</view>
+      </view>
+      <image src="/static/my/right.png" class="right"></image>
+    </view>
+    <view class="nav">
+      <view class="">
+        <image src="/static/my/li6.png" class="nav_icon"></image>
+        <view>帮助中心</view>
+      </view>
+      <image src="/static/my/right.png" class="right"></image>
+    </view>
+  </view> 
+</view>
