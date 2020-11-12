@@ -1,0 +1,18 @@
+<view>
+  <com_concessional bind:handleNowGet="handleNowGet" />
+</view>
+<!-- 领取成功提示-->
+<view class="res_concessional_box" wx:if="{{is_show_get}}">
+  <view class="box_center">
+    <image 
+    src="/static/index/res_succeed.png" 
+    class="center_img"
+    />
+    <view class="center_text">领取成功!</view>  
+    <view class="center_to_employ"  bindtap="handleToIndex">去使用</view>
+  </view>
+</view>
+<!-- 关闭按钮成功提示按钮 -->
+
+<image wx:if="{{is_show_get}}" class="btn_esc" bindtap="handleEscBtn" src="/static/index/esc_icon.png" />
+

@@ -1,0 +1,20 @@
+<view class="page">
+<!-- 头部 -->
+<view class="box_top">
+  <view class="top_left">
+    <input 
+    class="left_input"
+    type="text" placeholder="输入关键词"
+    placeholder-style="  margin-left: 30rpx;"
+    />
+  </view>
+  <view class="top_right">搜索</view>
+</view>
+<!-- 列表 -->
+<view class="search_box">
+<com_list/>
+</view>
+
+
+
+</view>

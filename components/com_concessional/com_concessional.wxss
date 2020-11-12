@@ -1,0 +1,76 @@
+.comconcessional_box{
+  padding: 20rpx 30rpx;
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+.box_item{
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 25rpx;
+  padding: 20rpx;
+}
+.item_left{
+  flex: 4;
+  border-right: 2rpx dashed #FF9C44 ;
+  display: flex;
+  align-items: center;
+}
+.item_right{
+  flex: 1;
+  font-size: 25rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF9C44;
+  text-align: center;
+  height: 140rpx;
+  line-height: 140rpx;
+}
+
+.box_z_left{
+  position: relative;
+  width: 157rpx;
+  height: 140rpx;
+  text-align: center;
+}
+.box_img{
+  width: 157rpx;
+  height: 140rpx;
+}
+.box_show_price{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.box_price{
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  margin-right: 10rpx;
+}
+.box_price_tag{ 
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #F87A14;
+}
+.left_text_price{
+  margin-left: 20rpx;
+}
+.text_price_top{
+  
+font-size: 34rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #000000;
+
+}
+.text_price_foot{
+margin-top: 20rpx;
+font-size: 20rpx;
+font-family: PingFang SC;
+font-weight: 400;
+color: #333333;
+}

@@ -1,0 +1,35 @@
+<view class="pay_course_box">
+  <!-- 购买课程类别（一级） -->
+  <!-- <view class="pay_course_calss">
+    <view class="pay_course_calss_left">购买课程类别（一级）</view>
+    <view class="pay_course_calss_right">￥2299</view>
+  </view> -->
+  <!-- 购买当前课程 -->
+  <view class="pay_currtent_course">
+    <view class="currtent_course_left">
+      <image class="currtent_course_right_img"  src="/static/index/测试图片.jpg" />
+    </view>
+    <view class="currtent_course_right">
+      <view class="currtent_course_right_title">HR快速入职指南</view>
+      <view class="currtent_course_right_class">分类>分类>分类</view>
+      <view class="currtent_course_right_tag_box">
+        <view class="right_tag_item">零基础</view>
+      </view>
+      <view class="currtent_course_right_foot">
+        <view class="course_right_foot_left">课程老师：王大拿</view>
+        <view class="course_right_foot_right">￥2299</view>
+      </view>
+    </view>
+  </view>
+
+  <com_pay_course/>
+
+</view>
+<!-- 下方购买框 -->
+<view class="pay_foot_pop">
+  <view class="pay_foot_pop_price">
+    <view>需支付：</view>
+    <view class="price_pay">￥2299</view>
+  </view>
+  <view class="pay_foot_pop_btn">立即支付</view>
+</view>

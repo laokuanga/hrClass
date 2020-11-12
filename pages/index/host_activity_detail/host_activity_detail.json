@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "com_host_activity_detail":"/components/com_host_activity_detail/com_host_activity_detail"
+  },
+  "navigationBarTitleText":"活动详情"
+  
+}

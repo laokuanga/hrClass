@@ -1,0 +1,58 @@
+
+<!-- 报名 -->
+<view 
+class="activiiy_apply_box"
+wx:if="{{!is_show_res}}"
+>
+<!-- 姓名 -->
+<view class="apply_box_title">姓名</view>
+<view class="apply_box_input">
+  <input 
+  type="text" 
+  placeholder="请输入您的姓名"
+  class="box_input"
+  />
+</view>
+<!-- 电话 -->
+<view class="apply_box_title">您的电话</view>
+<view class="apply_box_input">
+  <input 
+  type="number" 
+  placeholder="请输入您的电话号码"
+  class="box_input"
+  />
+</view>
+<!-- 优惠券 -->
+<view class="apply_box_title">优惠券</view>
+<view class="apply_box_input yhj_box">
+  <input 
+  type="number" 
+  placeholder="选择优惠券"
+  disabled="true"
+  />
+  <image class="box_yhj_right_icon" src="/static/index/gd_icon.png" />
+</view>
+<!-- 提交按钮 -->
+<view class="submit_btn" bindtap="handleSubmitBtn">提交</view>
+</view>
+<!-- 提交后结果 -->
+<view 
+wx:if="{{is_show_res}}"
+class="apply_res_box"
+>
+<image class="res_box_show_img" src="/static/index/res_succeed.png" />
+<view class="res_box_show_title">恭喜您，报名成功！</view>
+<view class="res_box_show_text">请准时参加活动哦</view>
+<view class="res_box_show_back" bindtap="handleBackIndex">返回首页</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+

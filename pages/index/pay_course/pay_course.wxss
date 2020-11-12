@@ -1,0 +1,129 @@
+.pay_course_box{
+  padding: 30rpx;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+.pay_course_calss{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  color: #333333;
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+}
+.pay_foot_pop{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.07); 
+  padding: 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pay_foot_pop_price{
+  display: flex;
+  align-content: center;
+}
+.pay_foot_pop_btn{
+  width: 300rpx;
+height: 88rpx;
+background: #37AC73;
+border-radius: 20rpx;
+
+font-size: 32rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #FFFFFF;
+line-height: 88rpx;
+text-align: center;
+}
+.price_pay{
+  font-size: 35rpx;
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  color: #FF444F;
+}
+
+/* 购买当前课程 */
+.pay_currtent_course{
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+}
+.currtent_course_left{
+  width: 260rpx;
+  height: 190rpx;
+}
+.currtent_course_right_img{
+  width: 260rpx;
+  height: 190rpx;
+  border-radius: 20rpx;
+}
+.currtent_course_right{
+  margin-left: 20rpx;
+}
+.currtent_course_right_title{
+
+font-size: 36rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #333333;
+
+}
+.currtent_course_right_class{
+  
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 400;
+color: #333333;
+}
+.currtent_course_right_tag_box{
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+  padding: 20rpx 0;
+}
+.right_tag_item{
+  padding: 6rpx 10rpx;
+  color: #3176EA;
+  background-color: #EAF1FD;
+  font-size: 20rpx;
+  border-radius: 25rpx;
+
+}
+.currtent_course_right_foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course_right_foot_left{
+  
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 400;
+color: #333333;
+
+}
+
+.course_right_foot_right{
+  
+font-size: 26rpx;
+font-family: Source Han Sans CN;
+font-weight: bold;
+color: #333333;
+}

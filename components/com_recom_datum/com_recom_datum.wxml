@@ -1,0 +1,44 @@
+<view class="recom_datum_box">
+
+
+
+<view class="datum_box_item">
+  <!-- 左边盒子 -->
+  <view class="box_item_left_box">
+        <!-- 左边图片 -->
+        <image
+        src="/static/index/pdf_icon.png" 
+        class="left_box_img"
+        />
+        <!-- 右边介绍 -->
+      <view class="left_box_brief">
+        <view class="box_brief_top">HR快速入职指南</view>
+        <view class="box_brief_foot">2020-18-20  14:23</view>
+      </view>
+  </view>
+   <!-- 右边盒子 -->
+   <view class="box_item_right_box">
+      <view class="right_box_text">查看</view>
+   </view>
+</view>
+<view class="datum_box_item">
+  <!-- 左边盒子 -->
+  <view class="box_item_left_box">
+        <!-- 左边图片 -->
+        <image
+        src="/static/index/pdf_icon.png" 
+        class="left_box_img"
+        />
+        <!-- 右边介绍 -->
+      <view class="left_box_brief">
+        <view class="box_brief_top">HR快速入职指南</view>
+        <view class="box_brief_foot">2020-18-20  14:23</view>
+      </view>
+  </view>
+   <!-- 右边盒子 -->
+   <view class="box_item_right_box">
+      <view class="right_box_text">查看</view>
+   </view>
+</view>
+
+</view>

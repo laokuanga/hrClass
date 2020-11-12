@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "com_concessional":"/components/com_concessional/com_concessional"
+  },
+  "navigationBarTitleText":"优惠券"
+
+}

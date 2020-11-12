@@ -1,0 +1,80 @@
+<view class="course_class_box">
+<!-- 左边选择分类滑动栏 -->
+  <scroll-view 
+  scroll-y="true" class="scroll_view_box_left">
+  <view 
+  class="box_item_left_text {{ activeItem === 'rec' ? 'active_item' : ''}}"   
+  bindtap="handleClikItem"  
+  
+  >精品推荐</view>
+
+  <view 
+  class="box_item_left_text {{ activeItem === item.id ? 'active_item' : ''}}"
+  wx:for="{{oneRank}}" 
+  wx:key="{{item.id}}"
+  bindtap="handleClikItem"
+  data-id="{{item.id}}"
+  >{{item.name}}</view>
+  </scroll-view>
+
+<!-- 右边内容 -->
+<scroll-view 
+scroll-y="true" 
+class="scroll_view_box_right">
+<!-- 推荐课程 -->
+<view 
+class="scroll_view_recom_box" 
+wx:if="{{is_show_right === 0}}">
+
+  <view class="view_recom_box_item" wx:for="{{recomData}}" wx:key="{{item.id}}">
+      <view class="recom_box_left">
+      <image src="{{item.image_text}}" class="box_left_img" />
+    </view>
+    <view class="recom_box_right">
+      <view class="recom_box_right_title">{{item.title}}</view>
+      <view class="recom_box_right_tag_box">
+        <view class="tag_item" wx:for="{{item.label}}"  wx:for-item="item1">{{item1.title}}</view>
+      </view>
+      <view class="recom_box_right_price">￥{{item.price}}</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 分类 -->
+<view wx:else>
+  <view class="box_item_right_text" wx:for="{{twoData}}" wx:key="{{item.id}}">
+  <view class="item_right_text_title">{{item.name}}</view>
+  <view class="item_right_text_box">
+    <view 
+    class="right_text_box_box" 
+    wx:for="{{item.child}}" 
+    wx:for-item="item1"
+    wx:key="{{item1.id}}" 
+    bindtap="handleToCourseList"
+    data-id="{{item1.id}}"
+    >
+    <view class="right_text_box">
+          <image class="text_box_img" src="{{item1.image_text}}" />
+          <view class="text_box_text">{{item1.name}}1</view>
+    </view>
+  </view>
+  </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+</scroll-view>
+
+</view>
+
+<!-- 购买如下的所有课程 -->
+<view class="submit_pay">购买该分类所有课程</view>

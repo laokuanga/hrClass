@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "com_recom_datum":"/components/com_recom_datum/com_recom_datum"
+  },
+  "navigationBarTitleText":"资料推荐"
+
+}

@@ -1,0 +1,130 @@
+<view>
+<!-- 视频播放 strat -->
+<video 
+src="https://img.cdn.aliyun.dcloud.net.cn/guide/uniapp/%E7%AC%AC1%E8%AE%B2%EF%BC%88uni-app%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D%EF%BC%89-%20DCloud%E5%AE%98%E6%96%B9%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B@20200317.mp4"
+class="video_box"
+></video>
+<!-- 视频播放 end -->
+
+<view class="detail_box_info">
+  <!-- 简介 -->
+  <view class="box_info_title">HR快速入职指南HR快速入职指南</view>
+  <view class="box_info_tag_box">
+    <view class="tag_item">零基础</view>
+  </view>
+  <view class="box_info_price_box">
+    <view class="box_price">￥2299</view>
+    <view class="box_class">分类>分类>分类</view>
+  </view>
+  <view class="box_info_time_box">
+    <view class="box_time">发布时间：2020-08-23  14:20</view>
+    <view class="box_name">课程老师：<text class="name">张晓霞</text></view>
+  </view>
+</view>
+<!-- 边框 start-->
+<view class="page_border"></view>
+<!-- 边框 end -->
+
+
+<!-- navBar -->
+<view class="nav_bar_box">
+<view 
+class="box_item" 
+wx:for="{{navBar}}"
+wx:key="{{index}}"
+bindtap="handleChangeNavBar"
+data-index="{{index}}"
+
+>
+  <view class="{{ nav_bar_active_index === index ? 'active_item' : '' }}">{{item}}</view>
+  <view class="{{ nav_bar_active_index === index ? 'active_border' : '' }}"></view>
+</view>
+</view>
+<!-- 边框 -->
+<view class="nav_bar_border"></view>
+<!-- 边框 -->
+<!-- 下方内容 -->
+
+<view class="foot_content_box">
+
+  <view wx:if="{{nav_bar_active_index === 0}}">课程详情富文本</view>
+  <!-- 课程章节 -->
+  <view wx:if="{{nav_bar_active_index === 1}}">
+    <view wx:for="{{5}}" class="zoom">
+      <view class="section_title">
+      <view class="box_left_icon"></view>
+      <view class="box_right_title">第1章 | 2小时39分钟</view>
+    </view>
+    <!-- 章节名称 -->
+    <view class="sectioni_center_box">
+      <view class="sectioni_item">
+      <view class="sectioni_item_left">
+        <image class="sectioni_left_icon" src="/static/index/yq.png" />
+        <view class="sectioni_item_left_text">章节名称章节名称</view>
+      </view>
+        <view class="sectioni_item_right">正在播放...</view>
+    </view>
+    </view>
+
+    </view>
+
+  </view>
+
+
+
+  <!-- 课程评价 -->
+  <view wx:if="{{nav_bar_active_index === 2}}">
+  <view class="evaluate_item_box" wx:for="{{5}}">  
+   <view class="evaluate_item_left">
+     <image class="evaluate_left_img" src="/static/index/测试图片.jpg" />
+   </view> 
+   <view class="evaluate_item_right">
+    <view class="evaluate_item_name">小飞侠</view>
+    <view class="evaluate_item_time">2020-08-23  14:20</view>
+    <view class="evaluate_item_info">这个课程太好了，我好喜欢呀哇哇哇哇！这个课程太好了，我好喜欢呀。</view>
+   </view>
+  </view>
+
+
+  </view>
+
+</view>
+
+<!-- 课程详情 下方购买框 -->
+<view 
+class="foot_pay_btn"
+wx:if="{{nav_bar_active_index === 0}}"
+>
+   <view class="btn_left">
+      <view class="left_box">
+        <image class="com_icon" src="/static/index/sc_icon.png" />
+        <view class="left_icon">收藏课程</view>
+      </view>
+      <view class="right_box">
+        <image class="com_icon" src="/static/index/fx_icon.png" />
+        <view class="right_text">分享课程</view>
+      </view>
+   </view>
+   <view class="btn_right">立即购买</view>
+</view>
+<!-- 购买过的  才能出现的评价框 -->
+<view 
+class="pay_ok_input"
+wx:if="{{nav_bar_active_index === 2}}">
+  <input class="input" type="text" />
+  <view class="set_btn">评价</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

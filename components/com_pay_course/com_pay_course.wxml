@@ -1,0 +1,31 @@
+<view>
+  <view class="com_padding yhj_box">
+    <view class="yhj_box_left">优惠券</view>
+    <view class="yhj_box_right">
+      <view class="active_yhj">[100元满减券]-¥100.00</view>
+      <image class="yhj_box_right_icon" src="/static/index/gd_icon.png" />
+    </view>
+  </view>
+  <view class="com_padding js_box">
+    <view class="js_box_title">结算</view>
+    <view class="com_js_box_item">
+      <view>订单价格：</view>
+      <view class="com_js_box_color">¥2209.00</view>
+    </view>
+    <view class="com_js_box_item">
+      <view>已优惠：</view>
+      <view class="com_js_box_color">¥100.00</view>
+    </view>
+    <view class="com_js_box_item">
+      <view>需支付：</view>
+      <view class="com_js_box_color">¥160.00</view>
+    </view>
+  </view>
+  <view class="com_padding zffs_box">
+    <view class="zffs_box_left">支付方式</view>
+    <view class="zffs_box_right">
+      <image class="zffs_box_right_icon" src="/static/index/wchat_icon.png" />
+      <view>微信支付</view>
+    </view>
+  </view>
+</view>

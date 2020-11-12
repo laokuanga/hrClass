@@ -1,0 +1,19 @@
+<view class="com_host_activity_detail_box">
+   <view class="ctivity_detail_box_bg_img">
+     <image class="bg_img" src="/static/index/测试图片.jpg"/>
+    <!-- ---- -->
+    <view class="ctivity_detail_box_title_box">
+     <view class="title_box_title">百度HR总监分享会</view>
+     <view class="com_font_size_color time_text">活动时间：</view>
+     <view class="time_text_box">
+       <view class="com_font_size_color">2020.08.12  15:00 - 2020.8.13  18:00</view>
+       <view class="text_box_price">￥60</view>                        
+     </view>
+   </view>
+  </view>
+
+</view>
+<!-- 富文本 -->
+<view class="ctivity_detail_fwb">富文本</view>
+<!-- 报名按钮 -->
+<view class="sumit_btn" bindtap="handleToActivityApply">我要报名</view>

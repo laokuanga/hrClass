@@ -1,0 +1,68 @@
+.com_host_activity_detail_box{}
+.ctivity_detail_box_bg_img{
+  width: 100%;
+  height: 565rpx;
+  position: relative;
+}
+.bg_img{
+  width: 100%;
+  height: 100%;
+}
+.ctivity_detail_box_title_box{
+  position: absolute;
+  bottom: -30rpx;
+  left: 0;
+  right: 0;
+  padding: 30rpx;
+  background-color: #ffffff ;
+  border-radius: 30rpx 30rpx 0 0;
+  border-bottom: 5rpx solid #F8F8F8;
+}
+.title_box_title{
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.com_font_size_color{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.time_text{
+  margin-top: 30rpx;
+}
+.time_text_box{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.text_box_price{
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  color: #333333;
+}
+.ctivity_detail_fwb{
+  margin-top: 80rpx;
+}
+
+.sumit_btn{
+    position: fixed;
+    bottom: 56rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 560rpx;
+    height: 88rpx;
+    background: #37AC73;
+    border-radius: 44rpx;
+    text-align: center;
+    line-height: 88rpx;
+    
+    font-size: 32rpx;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}

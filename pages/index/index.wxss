@@ -1,0 +1,198 @@
+.page_index{
+  padding:0 30rpx 30rpx 30rpx;
+}
+/* 头部搜索框 */
+.top_box{
+  width: 100%;
+  height: 66rpx;
+  display: flex;
+  align-items: center;
+}
+.box_left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.box_right{
+  flex: 3;
+  width: 100%;
+  height: 100%;
+  border-radius: 25rpx;
+  background: #F5F5F5;
+  display: flex;
+  align-items: center;
+}
+.left_text{
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.lfet_icon{
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: 15rpx;
+}
+.right_icon{
+  width: 30rpx;
+  height: 28rpx;
+  margin-left: 20rpx;
+}
+.right_text{
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: 400;
+color: #999999;
+line-height: 9px;
+margin-left: 20rpx;
+
+}
+/* 轮播图 */
+.swiper_box{
+  width: 100%;
+  height: 260rpx;
+  border-radius: 25rpx;
+  margin-top: 20rpx;
+
+}
+/* 菜单 */
+.menu_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+.item_img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25rpx;
+}
+.box_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item_icon{
+  width: 80rpx;
+  height: 80rpx;
+}
+.item_text{
+margin-top: 32rpx;
+font-size: 26rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+
+}
+/* 推荐 */
+.recommend_img_box{
+  margin-top: 50rpx;
+  height: 328rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_box_left{
+  width: 340rpx;
+  height: 100%;
+}
+.box_left_img{
+  width: 340rpx;
+  height: 100%;
+}
+.img_box_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box_right_img1{
+  width: 330rpx;
+  height: 154rpx;
+}
+.box_right_img2{
+  width: 330rpx;
+  height: 154rpx;
+  margin-top: 20rpx;
+}
+
+/* 正在直播 */
+.live_ing_box{
+  margin-top: 50rpx;
+
+}
+.ing_box_title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box_title_left{
+font-size: 36rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #333333;
+}
+.box_title_right{
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #999999;
+
+}
+.title_right_icon{  
+  width: 8rpx;
+  height: 14rpx;
+  margin-left:15rpx;
+}
+/* 正在直播 */
+.scroll_list_box{
+  width: 100%;
+  margin-top: 30rpx;
+}
+.list_box_item{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.item_info{
+  width: 404rpx;
+  height: 289rpx;
+  border-radius: 25rpx;
+  margin-right: 30rpx;
+}
+.info_img{
+  width: 404rpx;
+  height: 289rpx;
+}
+.info_zb_ing_box{
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  background-color: #56C991;
+  border-radius: 25rpx;
+  width: 100rpx;
+  height: 38rpx;
+  display: flex; 
+  align-items: center;
+  justify-content: space-around; 
+}
+.zb_box_icon{
+  width: 14rpx;
+  height: 14rpx;
+}
+.zb_box_text{
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 9rpx;
+}
+/* 畅销好课 */
+.host_course{
+  margin-top: 50rpx ;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}

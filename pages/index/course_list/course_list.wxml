@@ -1,0 +1,52 @@
+
+<view class="coursr_list_box">
+  <!-- 搜索筛选 -->
+  <view class="box_top">
+    <view class="box_left">
+      <image class="left_icon" src="/static/index/yq.png"/>
+      <input class="left_input" type="text" placeholder="搜索课程" />
+    </view>
+    <view class="box_right" bindtap="handleOpenScreen">
+      <image class="right_icon" src="/static/index/sx.png"/>
+      <view class="right_text">筛选</view>
+    </view>
+  </view>
+  <!-- 筛选框 -->
+  <view 
+  class="screen_pop_box" 
+  wx:if="{{is_show_screen_open}}"
+  bindtap="handleEscPop"
+  >
+        <view class="pop_box_center">
+          <!-- 选择tag -->
+          <view class="select_tag">
+            <view class="box_center_title">选择课程标签（多选）</view>
+            <!-- tag box -->
+            <view class="tag_box" >
+                   <view 
+                   class="box_item active_item"
+                   bindtap="handleSelectItem"
+                    wx:for="{{9}}">零基础1</view>
+            </view>
+
+          </view>
+
+
+
+          <!--  确定按钮 -->
+          <view class="submit_btn">确定</view>
+        </view>
+
+  </view>
+
+
+  <view class="list_box">
+  <com_list listData="{{listData}}"/>
+  </view>
+
+
+</view>
+
+
+
+

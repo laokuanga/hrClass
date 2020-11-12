@@ -1,0 +1,29 @@
+<view class="com_list_box" 
+wx:for="{{listData}}" 
+wx:key="{{item.id}}" 
+bindtap="handleToCourseDetail"
+data-id="{{item.id}}"
+>
+<!-- 左边图片 -->
+<view class="list_box_left">
+  <image class="box_left_img" src="{{item.image_text}}"></image>
+</view>
+<!-- 右边内容 -->
+<view class="list_box_right">
+  <view class="box_right_title">{{item.title}}</view>
+  <view class="box_right_brief">
+    {{item.first_category_name}}>{{item.second_category_nam}}>{{item.category_nam}}
+  </view>
+  <view class="box_right_tag_box" >
+    <view 
+    class="right_tag_icon" 
+    wx:for="{{item.label}}" 
+    wx:for-item="item1">{{item1.title}}</view>
+  </view>
+  <view class="box_right_foot_price">
+    <view>课程老师：{{item.nickname}}</view>
+    <view class="price_num">￥{{item.price}}</view>
+  </view>
+</view>
+
+</view>

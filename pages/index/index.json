@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "com_list":"/components/com_list/com_list"
+  },
+  "navigationBarTitleText":"首页"
+}

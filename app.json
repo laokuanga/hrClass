@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/live/live",
+    "pages/index/search/search",
+    "pages/index/concessional/concessional",
+    "pages/index/datum_recom/datum_recom",
+    "pages/index/host_activity/host_activity",
+    "pages/index/host_activity_detail/host_activity_detail",
+    "pages/index/activity_apply/activity_apply",
+    "pages/index/course_class/course_class",
+    "pages/index/course_list/course_list",
+    "pages/index/course_detail/course_detail",
+    "pages/file/file",
+    "pages/my/my",
+    "pages/index/pay_course/pay_course"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#C3C3C6",
+    "selectedColor": "##37AC73",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tababr/home.png",
+        "selectedIconPath": "/static/tababr/homeed.png"
+      },
+      {
+        "pagePath": "pages/live/live",
+        "text": "直播",
+        "iconPath": "/static/tababr/zb.png",
+        "selectedIconPath": "/static/tababr/zb.png"
+      },
+      {
+        "pagePath": "pages/file/file",
+        "text": "文档",
+        "iconPath": "/static/tababr/wd.png",
+        "selectedIconPath": "/static/tababr/wded.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/tababr/my.png",
+        "selectedIconPath": "/static/tababr/myed.png"
+      }
+    ]
+  }
+}

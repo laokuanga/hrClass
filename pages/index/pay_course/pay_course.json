@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "com_pay_course":"/components/com_pay_course/com_pay_course"
+  },
+  "navigationBarTitleText":"课程购买"
+
+}

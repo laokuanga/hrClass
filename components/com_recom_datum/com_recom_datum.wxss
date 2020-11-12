@@ -1,0 +1,44 @@
+.recom_datum_box{
+  padding: 0 30rpx;
+}
+.datum_box_item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80rpx;
+  margin-bottom: 50rpx;
+}
+.box_item_left_box{
+  display: flex;
+  align-items: center;
+}
+.left_box_img{
+  width: 43rpx;
+  height: 51rpx;
+  margin-right: 30rpx;
+}
+.left_box_brief{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box_brief_top{
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.box_brief_foot{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+
+
+.right_box_text{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}

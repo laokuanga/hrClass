@@ -1,0 +1,31 @@
+<view 
+class="comconcessional_box page">
+
+  <view class="box_item">
+
+   <view class="item_left">
+     <view class="left_box">
+       <!-- 最左边图片 -->
+       <view class="box_z_left"> 
+        <image 
+        class="box_img" 
+        src="/static/index/yhj_bg_img.png"/>
+       <view class="box_show_price">
+        <view class="box_price">￥100</view>
+        <view class="box_price_tag">满1000元</view>
+       </view>
+       </view>
+
+       <!-- 中间 -->
+     </view>
+     <view class="left_text_price">
+       <view class="text_price_top">100元代金券</view>
+       <view class="text_price_foot">有效期：2020.02.01-2020.02.30</view>
+     </view>
+   </view>
+   <view class="item_right" bindtap="handleNowGet">立即领取</view>
+
+  </view>
+
+
+</view>

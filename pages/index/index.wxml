@@ -1,0 +1,148 @@
+<view class="page_index">
+  <!-- 切换按钮 和 搜索框 -->
+   <view class="top_box">
+    <view class="box_left">
+        <view class="left_text">HR用户</view>
+        <image src="/static/index/index_change_icon.png" 
+        class="lfet_icon"
+        />
+    </view>
+    <view class="box_right" bindtap="handleToSarch">
+       <image src="/static/index/serach_icon.png"
+       class="right_icon"
+        />
+       <view class="right_text">搜索课程</view>
+    </view>
+   </view>
+   <!-- 轮播图 -->
+   <swiper 
+   indicator-dots indicator-color="#6f6f6f"
+   indicator-active-color="#ffffff"
+   class="swiper_box"
+   >
+     <swiper-item 
+     class="box_item"
+     wx:for="{{bannerData}}"
+     wx:key="{{item.id}}"
+     >
+       <image  
+       src="{{item.image_text}}"
+       class="item_img"
+       />
+     </swiper-item>
+   </swiper>
+   <!-- 菜单 -->
+   <view class="menu_box">
+     <view class="box_item" bindtap="handleToCourseClass">
+       <image 
+       src="/static/index/index_kc.png"
+       class="item_icon"
+       />
+       <view class="item_text">课程</view>
+     </view>
+     <view class="box_item" bindtap="handleToDiscounts">
+       <image 
+       src="/static/index/index_yhj.png"
+       class="item_icon"
+       />
+       <view class="item_text">优惠券</view>
+     </view>
+     <view class="box_item">
+       <image 
+       src="/static/index/index_fx.png"
+       class="item_icon"
+       />
+       <view class="item_text">分销</view>
+     </view>
+     <view class="box_item">
+       <image 
+       src="/static/index/index_hd.png"
+       class="item_icon"
+       />
+       <view class="item_text">活动</view>
+     </view>
+     <view class="box_item">
+       <image 
+       src="/static/index/index_hy.png"
+       class="item_icon"
+       />
+       <view class="item_text">会员</view>
+     </view>
+     
+  
+   </view>
+   <!-- 推荐 -->
+   <view class="recommend_img_box" bindtap="handleToCourseRecom">
+     <view class="img_box_left">
+       <image src="/static/index/index_kctj.png"
+       class="box_left_img"
+       />
+     </view>
+     <view class="img_box_right">
+      <image bindtap="handleToHostActivity" src="/static/index/index_rmhd.png" class="box_right_img1"></image>
+      <image bindtap="handleToRecomDatum" src="/static/index/index_zltj.png" class="box_right_img2"></image>
+     </view>
+   </view>
+   <!-- 正在直播 -->
+   <view class="live_ing_box">
+    <view class="ing_box_title">
+      <view class="box_title_left">正在直播</view>
+      <view class="box_title_right">更多直播<image class="title_right_icon" src="/static/index/gd_icon.png"/></view>
+    </view>
+    
+    <!-- 列表 -->
+    <scroll-view 
+    scroll-x="true"
+    class="scroll_list_box"
+    >
+      <view class="list_box_item">
+          
+        
+          <view class="item_info">
+            <image 
+            class="info_img" 
+            src="/static/index/index_rmhd.png" />
+           <!-- 正在直播icon -->  
+            <view class="info_zb_ing_box">
+            <image class="zb_box_icon" src="/static/index/zbing.png" />
+            <view class="zb_box_text">直播中</view>
+            </view>
+          </view>
+          
+          
+          
+
+          
+          
+          
+          
+    
+
+
+
+      </view>
+
+
+    
+
+      
+
+
+
+
+
+
+
+
+    </scroll-view>
+
+
+
+
+   </view>
+ 
+   <!-- 课程列表 -->
+     <view class="host_course">畅销好课</view>
+     <com_list listData="{{listData}}" bind:handleToCourseDetail="handleToCourseDetail"/>
+</view>
+

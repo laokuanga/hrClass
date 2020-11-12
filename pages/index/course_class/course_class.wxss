@@ -1,0 +1,142 @@
+.course_class_box{
+  display: flex;
+}
+
+.scroll_view_box_left{
+  width: 200rpx;
+  max-height: 100vh;
+  min-height: 100vh;
+  background-color: #F5F6F9;
+
+}
+.active_item{
+  background: #ffffff!important;
+  color: #333333!important;
+  font-weight: bold!important;
+}
+.box_item_left_text{
+  width: 100%;
+  height: 100rpx;
+  background-color: #F5F6F9;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+   
+}
+.scroll_view_box_right{
+  width: 100%;
+  max-height: 100vh;
+}
+
+.item_right_text_title{
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  margin: 30rpx 30rpx 0 30rpx;
+}
+.item_right_text_box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item_right_text_box::after{
+  content: "";
+  width: 100rpx;
+  height: 100rpx;
+}
+.right_text_box_box{
+  width: 33%;
+}
+.right_text_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.text_box_img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  
+}
+.text_box_text{
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 20rpx;
+}
+
+/* 购买所有 */
+.submit_pay{
+  position: fixed;
+  bottom: 20rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 560rpx;
+  height: 88rpx;
+  background: #37AC73;
+  border-radius: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 88rpx;
+  text-align: center;
+}
+/* 推荐课程 */
+.scroll_view_recom_box{
+  padding: 0 30rpx;
+}
+.view_recom_box_item{
+  display: flex;
+  margin-top: 30rpx;
+}
+.recom_box_left{
+  width: 225rpx;
+  min-height: 130rpx;
+}
+.box_left_img{
+   width: 100%;
+   height: 100%;
+   border-radius: 25rpx;
+  
+}
+
+.recom_box_right{
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recom_box_right_title{
+font-size: 30rpx;
+font-family: PingFang SC;
+font-weight: bold;
+color: #333333;
+
+}
+.recom_box_right_tag_box{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.tag_item{
+  padding: 5rpx 10rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  background-color: #EAF1FD;
+  color: #3176EA;
+  line-height: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  margin: 10rpx 20rpx  0 0;
+}
+.recom_box_right_price{}

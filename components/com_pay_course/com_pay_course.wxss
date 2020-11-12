@@ -1,0 +1,85 @@
+.com_padding{
+  padding: 30rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.yhj_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.yhj_box_left{
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.yhj_box_right{
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #18BC67;
+}
+.active_yhj{
+  padding: 10rpx 20rpx;
+  border-radius: 25rpx;
+  border: 2rpx solid #cccccc;
+  margin-right: 50rpx;
+}
+.yhj_box_right_icon{
+  width: 14rpx;
+  height: 24rpx;
+}
+
+.js_box{
+
+}
+.js_box_title{
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.com_js_box_item{
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.com_js_box_color{
+  color: #333333;
+}
+
+
+
+.zffs_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zffs_box_left{
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.zffs_box_right{
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #18BC67;
+}
+.zffs_box_right_icon{
+  width: 45rpx;
+  height: 46rpx;
+  margin-right: 30rpx;
+}
