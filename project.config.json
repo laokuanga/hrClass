@@ -1,124 +1,124 @@
 {
-  "description": "项目配置文件",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": false,
-    "es6": true,
-    "enhance": false,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "enableEngineNative": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.14.0",
-  "appid": "wx12e160bdde8f4ae6",
-  "projectname": "hrClass",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "scripts": {},
-  "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
-  "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": [
-        {
-          "name": "搜索页面",
-          "pathName": "pages/index/search/search",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "优惠券页面",
-          "pathName": "pages/index/concessional/concessional",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "资料推荐",
-          "pathName": "pages/index/datum_recom/datum_recom",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "热门活动",
-          "pathName": "pages/index/host_activity/host_activity",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "活动详情",
-          "pathName": "pages/index/host_activity_detail/host_activity_detail",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "活动报名",
-          "pathName": "pages/index/activity_apply/activity_apply",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "课程分类",
-          "pathName": "pages/index/course_class/course_class",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "课程列表",
-          "pathName": "pages/index/course_list/course_list",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "课程详情",
-          "pathName": "pages/index/course_detail/course_detail",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "课程购买",
-          "pathName": "pages/index/pay_course/pay_course",
-          "scene": null
-        }
-      ]
-    }
-  }
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": false,
+		"autoAudits": false,
+		"coverView": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"enhance": false,
+		"nodeModules": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"useMultiFrameRuntime": false,
+		"useApiHook": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"enableEngineNative": false,
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false,
+		"packNpmManually": false,
+		"packNpmRelationList": [],
+		"minifyWXSS": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.14.0",
+	"appid": "wx93e422a235eb857d",
+	"projectname": "hrClass",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"plugin": {
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"list": []
+		},
+		"miniprogram": {
+			"list": [
+				{
+					"name": "搜索页面",
+					"pathName": "pages/index/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "优惠券页面",
+					"pathName": "pages/index/concessional/concessional",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "资料推荐",
+					"pathName": "pages/index/datum_recom/datum_recom",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "热门活动",
+					"pathName": "pages/index/host_activity/host_activity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "活动详情",
+					"pathName": "pages/index/host_activity_detail/host_activity_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "活动报名",
+					"pathName": "pages/index/activity_apply/activity_apply",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "课程分类",
+					"pathName": "pages/index/course_class/course_class",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "课程列表",
+					"pathName": "pages/index/course_list/course_list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "课程详情",
+					"pathName": "pages/index/course_detail/course_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"name": "课程购买",
+					"pathName": "pages/index/pay_course/pay_course",
+					"scene": null
+				}
+			]
+		}
+	}
 }
